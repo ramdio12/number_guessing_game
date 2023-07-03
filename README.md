@@ -74,20 +74,21 @@ Same as the Game Over, you need to click the "play again" button to go back to t
 ![Alt text](app%203.PNG)<br>
 
 ### Application ID
-252236904
-https://testnet.algoexplorer.io/application/252236904 
+
+<p>252279791</p>
+https://testnet.algoexplorer.io/application/252279791 
 
 ### Front-end
  This is the repository of the front - end :<br>
- https://github.com/ramdio12/number_guessing_game_frontend
+ https://github.com/ramdio12/number_guessing_game.git
  
 ### Demo Website
-Here is the [link](https://number-guessing-game-frontend.vercel.app/) to the website.
+Here is the [link]() to the website.
 
 ### Smart Contact
 Here's the  to the dApp's smart contract.
-[link](https://github.com/ramdio12/number_guessing_game.git)
+[link](https://github.com/ramdio12/Algonum_Smart_Contract.git)
 
 ### Video Demonstration
 To see the video demonstration:<br>
-[link](https://drive.google.com/file/d/1BzjapA6Wx-hb6k9QDECWQAJTu1fLuqUg/view?usp=drive_link)
+[link](https://drive.google.com/drive/folders/1YIQh065mkMfQ3LQDkXXJmKZg5eR7Nczw?usp=sharing)
