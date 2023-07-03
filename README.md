@@ -1,7 +1,7 @@
 # AlgoNum Guessing Game
 
 ### Description
-AlgoNum Guessing Game is A Decentralized WebApp using Algorand Smart Contract. It utilizes global and local states for storing and managing values. The player need to guess a random number from a specfic range (1 to 50), and they need to guess it before their given limited chances runs out.
+AlgoNum Guessing Game is A Decentralized <b>Number Guessing Game</b>  WebApp using Algorand Smart Contract. It utilizes global and local states for storing and managing values. The player need to guess a random number from a specfic range (1 to 50), and they need to guess it before their given limited chances runs out.
 <br>
 Players can earn many points as they can
 
