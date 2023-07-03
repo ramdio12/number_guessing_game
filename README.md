@@ -72,8 +72,8 @@ Same as the Game Over, you need to click the "play again" button to go back to t
 ![Alt text](app%201.PNG)<br>
 ![Alt text](app%202.PNG)<br>
 ![Alt text](app%203.PNG)<br>
-![Alt text](app%204.PNG)<br>
-![Alt text](app%205.PNG)<br>
+![Alt text](app%204.png)<br>
+![Alt text](app%205.png)<br>
 
 ### Application ID
 
