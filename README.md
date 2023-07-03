@@ -7,24 +7,39 @@ Players can earn many points as they can
 
 ## Subroutines in Smart Contracts and their uses
 
+### join_and_play :
+<p>
+    In this Subroutine, it will count the number of players(global_players_count), how many times does a
+    player play (play_count) and register the user that will enter the Number Guessing Game for the first
+    time (regNumGame).
+</p>
 
-### join_and_play : 
+<p>
+Next time the player enters the game , the Subroutine will evaluate whether if the player had
+registered in the past or not, if regNumgame is equal to 1 then only play_count will be incremented
+to 1 .
+</p>
+<p>
+If regNumgame is 0 ,it will proceed to the next condition where the global_players_count will be
+increased to one and also the play_count and set the regNumgame to 1 , Meaning the player has
+successfully joined the game and they can now play.
+</p>
 
-In this Subroutine, it will count the number of players(global_players_count), how many times does a player play (play_count) and registers the user that will enter the Number Guessing Game for the first time (regNumGame).
-<br>
-Next time the player enters the game , the Subroutine will evaluate whether if the player had registered in the past or not, if regNumgame is equal to 1 then only play_count will be incremented to 1 . <br>
-If regNumgame is 0 ,it will proceed to the next condition where the global_players_count will be increase to one and also the play_count and set the regNumgame to 1 , meaning the player has successfully joined(or registered) the game and they can now play.<br>
-ADDITIONAL : <br> The chances default value will be set to 5 as the player enters the game <br>                                           
+ADDITIONAL : The chances default value will be set to 5 as the player enters the game
 
-### guess : <br>
-This Subroutine has local_chances (in which the default value is 5) and isGuessOver (default is 0) .<br>
-If the local_chances is equals to 0, then the isGuessOver will be set to 1 (Meaning the game is over) . If not, then the player can still have the opportunity to guess the secret random number until the chances runs out
+### guess :
+This Subroutine has local_chances (in which the default value is 5) and isGuessOver (default is 0) .
+If the local_chances is equal to 0, then the isGuessOver will be set to 1 (Meaning the game is over).
+If not, then the player can still have the opportunity to guess the secret random number until the
+chances runs out
 
-### add_points : <br>
-The time that the user guessed the secret number correctly, the points (local_points) will be incremented to 1
+### add_points :
+The time that the user guessed the secret number correctly, the points (local_points) will be
+incremented to 1
 
-### play_again : <br>
-This Subroutine will set the number of chances(local_chances) back to 5 and isGuessOver will be set to 0 (Meaning you can now play the game again) Regardless if you guessed the number or not, this will help the player to go back to the game
+### play_again :
+This Subroutine will set the number of chances(local_chances) back to 5 and isGuessOver will be
+set to 0 (Meaning you can now play the game again).
 
 
 ## How to play
