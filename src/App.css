@@ -1,0 +1,16 @@
+
+html{
+   background-image: url("./components/button_styler/img/numback.jpg");
+  background-size:auto;
+  background-repeat: repeat;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
